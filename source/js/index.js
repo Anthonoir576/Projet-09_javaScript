@@ -21,6 +21,13 @@ navLinks.forEach(lien => {
         imgCurseur.classList.add('link-grow');
         lien.classList.add("hover-link");
 
-    })
+    });
 
-})
+    lien.addEventListener('mouseleave', () => {
+
+        imgCurseur.classList.remove('link-grow');
+        lien.classList.remove("hover-link");
+
+    });
+
+});

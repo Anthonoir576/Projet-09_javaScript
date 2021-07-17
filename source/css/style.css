@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0.3em 2em 0.5em 2em;
+  margin: 0em 0em 0.5em 2em;
 }
 header .logo {
   display: flex;
@@ -37,6 +37,7 @@ header nav ul {
   list-style-type: none;
 }
 header nav ul li {
+  padding: 10px 15px;
   font-size: 1.2rem;
   /*&:hover {
 
@@ -113,7 +114,7 @@ footer p {
 }
 
 .link-grow {
-  transform: scale(1.3);
+  transform: scale(1.5) translate(-25%, -25%);
   background: #222;
   opacity: 0.9;
   z-index: 2;
