@@ -46,7 +46,12 @@ header nav ul li:hover {
 main .banner {
   width: 100vw;
   height: 65vh;
-  background: url("../image/pix.jpg");
+  background: url("../image/pix.jpg") no-repeat center/cover;
+  filter: sepia(60%);
+  transition: 3s;
+}
+main .banner:hover {
+  filter: none;
 }
 main .container {
   display: flex;

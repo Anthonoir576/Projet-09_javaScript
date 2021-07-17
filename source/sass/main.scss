@@ -80,7 +80,17 @@ main {
         width: 100vw;
         height: 65vh;
     
-        background: url('../image/pix.jpg');
+        background: url('../image/pix.jpg') no-repeat center/cover;
+
+        // transition specifique
+        filter: sepia(60%);
+        transition: 3s;
+
+        &:hover {
+
+            filter: none;
+
+        }
     
     }
 
